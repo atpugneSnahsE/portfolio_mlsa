@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with diaries, coffee cup, pens and laptop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "my portfolio",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "My portfolio website created with the help of HTML, CSS, Java Script and Bootstrap. Tried to follow a minimilastic design approach.",
+    url: "https://eshansengupta.me/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Object detction using YOLOv7",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Yolo is a powerful tool for training a machine in recognizing objects in real time. Trained on the MSCOCO datset, this model is quite efficient",
+    url: "https://github.com/atpugneSnahsE/ObjectDetection1",
   },
   {
-    title: "My Resume Site",
+    title: "Object Detection using YOLOv8s",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Working on creating an efficient custom dataset which would help me in achiving better precision using YOLOv8s. Currently the project",
+    url: "https://github.com/atpugneSnahsE/ObjectDetection2",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GST Invoice Management",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Invoice Managemant software developped with the help of PHP and MySQL. It has the functionality of generating invoice calculating GST.",
+    url: "https://github.com/atpugneSnahsE/GST-Billing-System",
   },
 ];
 
